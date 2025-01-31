@@ -1,13 +1,12 @@
-import './App.css';
-import Home from './pages/Home/Home';
+import "./App.css";
+import Home from "./pages/Home/Home";
 
 function App() {
-
   const router = createBrowserRouter([
     {
-      path: '/',
-      element: <Home/>,
-    }
+      path: "/",
+      element: <Home />,
+    },
   ]);
 
   return <RouterProvider router={router} />;
