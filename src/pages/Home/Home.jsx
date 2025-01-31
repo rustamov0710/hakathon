@@ -1,9 +1,7 @@
-import React from 'react'
-
+import React from "react";
+import HomeBook from "../../components/BookHome/BookHome";
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  return <HomeBook />;
+};
 
-export default Home
+export default Home;
